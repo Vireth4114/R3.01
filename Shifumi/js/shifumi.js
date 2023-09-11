@@ -1,8 +1,6 @@
 let boutons = document.getElementsByTagName("button");
 let coupJoueur;
 
-console.log(boutons);
-
 for (let i = 0; i < 3; i++) {
     boutons[i].addEventListener("click", () => {
         coupJoueur = boutons[i].textContent;
